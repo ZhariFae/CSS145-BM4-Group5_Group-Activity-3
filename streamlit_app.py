@@ -1,16 +1,16 @@
 import streamlit as st
 
 st.title("Group Activity 3")
-st.header("CSS145-BM4: Group 5")
+st.text("CSS145-BM4: Group 5")
 
-st.subheader("Data Upload")
+st.text("Data Upload")
 st.code("""
 from google.colab import files
 uploaded = files.upload()
 """)
 
 # Library Imports
-st.subheader("Library Imports")
+st.text("Library Imports")
 st.code("""
 import squarify
 import pandas as pd
@@ -26,7 +26,7 @@ df = pd.read_csv('Electronic_sales_Sep2023-Sep2024.csv')
 """)
 
 # Tree Map: Gender
-st.header("Tree Map: Gender")
+st.text("Tree Map: Gender")
 st.code("""
 def treemap_gender():
     gender_counts = df['Gender'].value_counts()
@@ -37,5 +37,5 @@ def treemap_gender():
 treemap_gender()
 """)
 
-st.image("/workspaces/CSS145-BM4-Group5_Group-Activity-3/assets/treemap.png", caption="Tree Map: Gender", use_column_width=True)
+st.image("assets/treemap.png", caption="Tree Map: Gender", use_column_width=True)
 st.text("The treemap chart compares both genders, showing little difference in product purchases.")
