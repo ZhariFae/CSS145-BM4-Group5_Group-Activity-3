@@ -200,3 +200,39 @@ areaMap(df, sample_size=50).display()
 
 st.image("assets/areamap.png", caption="Area Map: Total Price over Time", use_column_width=True)
 st.text("The area map shows the total price of purchases over a 12-month period.")
+
+# Conclusion Section
+st.header(" Conclusion")
+
+conclusion_text = """
+The data gives us a lot of insight into customer behavior and product trends. When we look at gender, there’s a 
+pretty even split between male and female buyers. That might suggest that the products have broad appeal, or it could 
+be that the data doesn’t capture other gender identities, so we don’t have a full picture in that respect.
+
+Based on the high ratings (mostly 3, 4, and 5 stars), customers are happy with their purchases. When we look at pricing, 
+it shows that most purchases happen at lower price points. It seems the more affordable products attract the majority 
+of customers, while fewer people opt for the more expensive items.
+
+Older customers are spending more on average than younger ones. This could be due to older buyers having more financial 
+freedom. The data on payment methods shows a clear preference for digital payments, with PayPal and credit cards being 
+the most common choices. Cash is still used, but it’s a smaller portion of the payments.
+
+The types of products people buy also reveal trends—smartphones and laptops are the most popular, with accessories and 
+other electronics not performing as well. This makes sense, as bigger-ticket items like laptops naturally see higher 
+demand. The price differences are also noticeable in the data—laptops tend to be at the higher end, while accessories 
+fall on the lower end of the price spectrum.
+
+There’s a slight connection between age and how much people spend. As customers get older, their purchases tend to 
+become more expensive. But interestingly, customer satisfaction (as reflected in ratings) stays pretty much the same, 
+no matter how much they spend or their age group.
+
+One trend worth noting is that customers who buy more expensive products often also buy add-ons like accessories or 
+warranties. This is an opportunity to boost sales by packaging these add-ons with premium products. When we look at how 
+sales fluctuate, there are clear peaks—likely tied to specific events, promotions, or seasonal shopping trends. This 
+pattern suggests that marketing efforts should focus on these peak times to maximize sales.
+
+Overall, the data provides a clear look into who the customers are, what they’re buying, and how their behavior shifts 
+based on factors like age, price, and time of year. These insights can guide strategies for improving sales and customer 
+engagement moving forward.
+"""
+st.write(conclusion_text)
