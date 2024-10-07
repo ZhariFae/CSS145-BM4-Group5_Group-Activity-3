@@ -156,6 +156,7 @@ plt.show()
 st.image("assets/heatmap.png", caption="Correlation Heatmap of Customer Data", use_column_width=True)
 st.text("The heatmap shows the correlations between Age, Rating, and Total Price.")
 
+
 # Scatter Plot: Total Price vs Add-on Total
 st.markdown("#### Scatter Plot: Total Price vs Add-on Total")
 st.code("""
