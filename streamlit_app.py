@@ -5,7 +5,7 @@ st.title("CSS145 Group Activity 3")
 st.markdown("### BM4, Group 5")
 st.markdown("###### GATMAITAN, Gilbert Jan")
 st.markdown("###### PALMA, Gian Carlo")
-st.markdown("###### REYES, Jedidiah - ")
+st.markdown("###### REYES, Jedidiah")
 st.markdown("###### VILLAFRANCA, Johan Takkis")
 st.markdown("###### VIOLENTA, Erielson Emmanuel")
 
